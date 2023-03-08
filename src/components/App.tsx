@@ -3,7 +3,7 @@ import {FC} from 'react';
 import Cards from "./Cards/Cards";
 import {ads} from "../api/api";
 import ErrorMassage from "./ErrorMassage";
-import {Route, Routes} from "react-router-dom";
+import {Navigate, Route, Routes} from "react-router-dom";
 import CardPage from "./Cards/CardPage";
 import {ICard, IPageAds} from "../types/types";
 
@@ -46,7 +46,7 @@ const App: FC = () => {
     }
 
   return (
-      <main>
+      <div>
           <Routes>
           {
               <Route path={"/"}
@@ -62,7 +62,7 @@ const App: FC = () => {
               <Route path={"/port/:id?"}
                      element={<CardPage/>}/>
           </Routes>
-      </main>
+      </div>
   );
 };
 
