@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/test-cards-react-ts/static/css/main.0ebb52d1.css",
+    "main.js": "/test-cards-react-ts/static/js/main.9d12543a.js",
+    "static/media/show-more-preloader.svg": "/test-cards-react-ts/static/media/show-more-preloader.a2fae38264e9b650658a7438a7c2de16.svg",
+    "index.html": "/test-cards-react-ts/index.html",
+    "static/media/card-line.svg": "/test-cards-react-ts/static/media/card-line.f799254d3afc530c5e52e31115eef755.svg",
+    "static/media/image-point-active.svg": "/test-cards-react-ts/static/media/image-point-active.2a7ad1121a57de27bd6d85ceee206242.svg",
+    "static/media/image-point.svg": "/test-cards-react-ts/static/media/image-point.16d0ac5ac737f2dcf6696650b3a91b72.svg",
+    "main.0ebb52d1.css.map": "/test-cards-react-ts/static/css/main.0ebb52d1.css.map",
+    "main.9d12543a.js.map": "/test-cards-react-ts/static/js/main.9d12543a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ebb52d1.css",
+    "static/js/main.9d12543a.js"
+  ]
+}
