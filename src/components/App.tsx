@@ -46,7 +46,7 @@ const App: FC = () => {
     }
 
   return (
-      <div>
+      <main>
           <Routes>
           {
               <Route path={"/"}
@@ -62,7 +62,7 @@ const App: FC = () => {
               <Route path={"/port/:id?"}
                      element={<CardPage/>}/>
           </Routes>
-      </div>
+      </main>
   );
 };
 
